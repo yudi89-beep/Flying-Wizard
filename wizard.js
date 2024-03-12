@@ -22,7 +22,7 @@ window.onload = function() {
         const x = event.clientX - gif1.width / 2;
         const y = event.clientY - gif1.height / 2;
 
-        // gif1.style.transition = "left 1s, top 1s";
+        gif1.style.transition = "left 1s, top 1s";
         gif1.style.left = x + "px";
         gif1.style.top = y + "px";
 
